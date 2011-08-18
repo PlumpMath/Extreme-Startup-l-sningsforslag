@@ -34,4 +34,17 @@ Kildekoden
 Så her er koden som jeg skrev i all hast en kveld i august. Det er ikke pent å se på, men Johannes ville gjerne ha den. Og dermed
 kan den stå her til skrekk, forergrelse, lyst og latter.
 
-- Magnar
+Vil du ha den til å kjøre også sier du?
+
+    npm install -d
+    npm install buster -g
+    npm link buster
+
+Kjør tester med
+
+    buster test
+
+Start server med
+
+    node app.js
+
